@@ -9,8 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "components:build-storybook": "yarn workspace @chakra-component-library-starter/components run build-storybook"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.9.0",
